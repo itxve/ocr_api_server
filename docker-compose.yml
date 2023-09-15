@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  ocr_api_serve:
+    build: .
+    ports:
+      - 9898:9898
+  
